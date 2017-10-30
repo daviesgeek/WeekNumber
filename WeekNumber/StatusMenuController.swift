@@ -31,7 +31,7 @@ class StatusMenuController: NSObject {
     }
     titleString += self.getCurrentWeek()
     statusItem.title = titleString
-    weekItem.title = "Week \(self.getCurrentWeek()) of "
+    weekItem.title = "Week \(self.getCurrentWeek())"
   }
 
   func getCurrentWeek() -> String {
