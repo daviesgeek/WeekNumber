@@ -25,7 +25,6 @@ class StatusMenuController: NSObject {
   }
 
   @objc func setTitle() {
-    print("setting title")
     var titleString = ""
     if(Preferences.getShowYear()) {
       titleString += self.getCurrentYear() + "."
